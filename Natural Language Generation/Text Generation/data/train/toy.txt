@@ -1,0 +1,6 @@
+hello how are you ?<|EndOfInput|>i am fine!
+is it your boyfriend?<|EndOfInput|>not at all
+do you still remind me<|EndOfInput|>yes i do of course haha
+my university is close<|EndOfInput|>oh god
+what movie do you like?<|EndOfInput|>i am watching series, i think it is better
+do you know when the virus will be over<|EndOfInput|>not sure but news said soon!
