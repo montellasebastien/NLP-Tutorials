@@ -1,9 +1,9 @@
 <p align="center">
-<img src='nlp_logo' width=200 class="center">
+<img src='nlp_logo.png' width=200 class="center">
 </p>
 
 <h2 align="center">
-<p> :clapper: :clapper: Natural Language Processing Tutorials :clapper: :clapper:</p>
+<p> :books: Natural Language Processing Tutorials :books: </p>
 </h2>
 
 
