@@ -1,6 +1,7 @@
 from transformers import *
 import sys
 import random
+import torch
 import argparse
 from time import gmtime, strftime
 import getpass
@@ -113,8 +114,11 @@ if __name__ == '__main__':
         # preds.predictions are logits !
 
         # TODO
-        preds_probs = Softmax(preds.predictions)
-        print(preds_probs)
+        normalizer = Softmax(dim=-1)
+        preds_probs = normalizer(torch.FloatTensor(preds.predictions))
+        preds_ids = torch.argmax(preds_probs, dim=-1)
+        print(tokenizer.convert_ids_to_tokens(preds_ids[1].tolist()))
+        print(preds_ids)
 
 
 
