@@ -1,5 +1,5 @@
 <p align="center">
-<img src='nlp_logo.png' width=200 class="center">
+<img src='nlp_logo.png' width=400 class="center">
 </p>
 
 <h2 align="center">
